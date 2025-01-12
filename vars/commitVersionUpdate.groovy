@@ -11,7 +11,7 @@ def call() {
 
         echo "------------------------------------------------------------------------------------------"
 
-        sh "git remote set-url origin https://${USER}:${PASS}@https://github.com/EienMosu/java-maven-app-nana.git"
+        sh "git remote set-url origin https://${USER}:${PASS}@github.com/EienMosu/java-maven-app-nana.git"
         sh "git add *"
         sh 'git commit -m "jenkins version bump"'
         sh "git push origin HEAD:main"
