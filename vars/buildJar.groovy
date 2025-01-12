@@ -2,5 +2,5 @@
 
 def call() {
     echo "building the application for branc $BRANCH_NAME"
-    sh "mvn package"
+    sh "mvn clean package"
 }
